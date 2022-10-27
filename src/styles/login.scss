@@ -1,0 +1,47 @@
+.Login{
+    .Login-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        .Title{
+            margin-bottom: 36px;
+        }
+
+        .login_header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        .login_input{
+            background-color: transparent;
+            border: 2px solid #ffe81f;
+            border-radius: 8px;
+            color: #fff;
+            font-family: 'Star Jedi';
+            font-size: 1em;
+            margin-bottom: 15px;
+            max-width: 300px;
+            outline: none;
+            padding: 15px;
+            width: 100%;
+        }
+
+        .login_button {
+            background-color: #ffe81f;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            font-family: 'Star Jedi';
+            font-size: 1em;
+            max-width: 300px;
+            padding: 15px;
+            width: 100%;
+        }
+    }
+}
