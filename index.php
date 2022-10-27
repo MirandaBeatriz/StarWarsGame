@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Chicks Game</title>
-
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link href="src/fonts/starJedi/stylesheet.css" rel="stylesheet">
+    <title>Star Wars Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
-    teste
+<body style="background-image: assets/images/fundo.png">
+    
+    <div class="Login">
+        <form class="Login-form">
+            <div class="login_header">
+                <h1 class="Title _xl _yellow">Star <br> Wars</h1>
+                <h3 class="Sub _lg _white">Memory Game</h3>
+            </div>
+            <input type="text" placeholder="Name" class="login_input">
+            <button type="submit" class="login_button">Play</button>
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

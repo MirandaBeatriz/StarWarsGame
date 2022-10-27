@@ -1,1 +1,1 @@
-# White-Chicks-Game
+# Star Wars memory game
