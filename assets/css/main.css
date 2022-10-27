@@ -209,6 +209,7 @@ body {
 }
 .Login .Login-form .login_button {
   background-color: #ffe81f;
+  border: none;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
@@ -217,4 +218,15 @@ body {
   max-width: 300px;
   padding: 15px;
   width: 100%;
+}
+.Login .Login-form .login_button:hover {
+  box-shadow: 0 0 15px #ffe81f;
+}
+.Login .Login-form .login_button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+.Login .Login-form .login_button:disabled:hover {
+  box-shadow: 0 0 0;
 }
