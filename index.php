@@ -20,7 +20,7 @@
                 <h3 class="Sub _lg _white">Memory Game</h3>
             </div>
             <input type="text" placeholder="Name" class="login_input">
-            <button type="submit" class="login_button">Play</button>
+            <button type="submit" class="login_button" disabled>Play</button>
         </form>
     </div>
 
