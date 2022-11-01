@@ -1,5 +1,5 @@
-const input = document.querySelector('.login_input');
-const button = document.querySelector('.login_button');
+const input = document.querySelector('.login__input');
+const button = document.querySelector('.login__button');
 const form = document.querySelector('.login-form');
 
 const validateInput = ({ target }) => {
