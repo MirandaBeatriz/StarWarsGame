@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/fonts/starJedi/stylesheet.css" rel="stylesheet">
-    <title>Star Wars Game</title>
+    <title>Star Wars Game | Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body style="background-image: assets/images/fundo.png">
-    
+<body>
     <div class="Login">
         <form class="Login-form">
             <div class="login_header">
